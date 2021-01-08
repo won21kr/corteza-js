@@ -39,6 +39,11 @@ const namespaces = [
     namespace: 'federation',
     className: 'Federation',
   },
+  {
+    path: `${path}/automation/rest.yaml`,
+    namespace: 'automation',
+    className: 'Automation',
+  },
 ]
 
 esFormatterOptions.plugins = ['esformatter-add-trailing-commas']
